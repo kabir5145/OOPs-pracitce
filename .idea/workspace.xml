@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ffa3721-3a35-4e36-82f5-1030f8ecfc43" name="Changes" comment="question 6 of loops in java" />
+    <list default="true" id="8ffa3721-3a35-4e36-82f5-1030f8ecfc43" name="Changes" comment="question 6 of loops in java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/for_oops_practice/com/company/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/for_oops_practice/com/company/w3r_ques.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/for_oops_practice/com/company/w3r_ques.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/w3r_ques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/w3r_ques.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kabir5145"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kabir5145/OOPs-pracitce.git",
+    "accountId": "95b1b880-791f-4f76-afc9-b793cf506be9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -61,14 +78,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/kabir/IdeaProjects/for_oops_practice",
     "onboarding.tips.debug.path": "C:/Users/kabir/IdeaProjects/for_oops_practice/src/Main.java",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.w3r_ques">
+  <component name="RunManager" selected="Application.w3r_ques (5)">
     <configuration name="gh_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.gh_70" />
       <module name="for_oops_practice" />
@@ -149,19 +166,6 @@
     </configuration>
     <configuration name="gh_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.gh_70" />
-      <module name="for_oops_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="w3r_ques (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.w3r_ques" />
       <module name="for_oops_practice" />
       <extension name="coverage">
         <pattern>
@@ -187,6 +191,19 @@
       </method>
     </configuration>
     <configuration name="w3r_ques (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.w3r_ques" />
+      <module name="for_oops_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="w3r_ques (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.w3r_ques" />
       <module name="for_oops_practice" />
       <extension name="coverage">
@@ -227,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.w3r_ques (5)" />
+        <item itemvalue="Application.w3r_ques (4)" />
         <item itemvalue="Application.w3r_ques" />
         <item itemvalue="Application.w3r_ques (3)" />
         <item itemvalue="Application.w3r_ques (2)" />
-        <item itemvalue="Application.w3r_ques (1)" />
-        <item itemvalue="Application.w3r_ques (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759259257396</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="question 6 of loops in java">
+      <option name="closed" value="true" />
+      <created>1759259452632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759259452632</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

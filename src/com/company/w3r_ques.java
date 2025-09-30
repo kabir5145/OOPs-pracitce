@@ -1,32 +1,33 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
-class Account{
-    String accountNumber;
-    int balance;
+class Classroom{
+    String classNames;
+    String []studentsName;
 
-    public Account(String accountNumber, int balance) {
-        if (accountNumber == null || accountNumber.isEmpty()) {
-            // Print error message if accountNumber is null or empty
-            System.err.println("Error: Account number cannot be null or empty.");
-            return;
+    public Classroom(String classNames, String[] studentsName) {
+        this.classNames = classNames;
+        this.studentsName = studentsName;
+    }
+    public void printClassroom() {
+        System.out.println("Class Name: " + classNames);
+        System.out.print("Students: ");
+        for (String student : studentsName) {
+            System.out.print(student + " ");
         }
-        if (balance < 0) {
-            // Print error message if balance is negative
-            System.err.println("Error: Balance cannot be negative.");
-            return;
-        }
-            this.accountNumber = accountNumber;
-            this.balance = balance;
+        System.out.println();
     }
 }
 public class w3r_ques {
     public static void main(String[] args) {
-//        Question 6 : Constructor with Validation
-        Account a = new Account("1234",100000);
-        System.out.println("The account number is : "+a.accountNumber);
-        System.out.println("The balance is : "+a.balance);
+//        Question 7 : Constructor with Array Initialization
+
+        String[] student = {"kabir","Raghav","Pratham","Aaditya"};
+        Classroom c = new Classroom("jupiter",student);
+        c.printClassroom();
+
 
     }
 }
