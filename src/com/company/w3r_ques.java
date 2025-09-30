@@ -27,5 +27,6 @@ public class w3r_ques {
         Account a = new Account("1234",100000);
         System.out.println("The account number is : "+a.accountNumber);
         System.out.println("The balance is : "+a.balance);
+
     }
 }
